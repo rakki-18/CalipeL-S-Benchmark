@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkExecutor",
+	"category" : "CalipeL-S-Core-Runner",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"transcript"
+	],
+	"name" : "BenchmarkRunnerExecutor",
+	"type" : "normal"
+}

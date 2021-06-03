@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [
+		"lastSum"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Units"
+	],
+	"instvars" : [
+		"guard",
+		"maxRendezvous",
+		"open",
+		"process",
+		"queue",
+		"cache",
+		"pairCache",
+		"pairFactory",
+		"sharedQueueFactory",
+		"orderedCollectionFactory"
+	],
+	"name" : "BenchmarkGameMall",
+	"type" : "normal"
+}

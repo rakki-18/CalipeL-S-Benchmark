@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkCountingInstrument",
+	"category" : "CalipeL-S-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BenchmarkFullGarbageCollectCountInstrument",
+	"type" : "normal"
+}

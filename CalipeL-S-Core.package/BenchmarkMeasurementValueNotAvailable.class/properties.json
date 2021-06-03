@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core-Measurement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Instance"
+	],
+	"instvars" : [ ],
+	"name" : "BenchmarkMeasurementValueNotAvailable",
+	"type" : "normal"
+}

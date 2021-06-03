@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkMeasurementInstrument",
+	"category" : "CalipeL-S-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MillisecondsTime"
+	],
+	"instvars" : [
+		"t0",
+		"t1"
+	],
+	"name" : "BenchmarkGCTimeInstrument",
+	"type" : "normal"
+}

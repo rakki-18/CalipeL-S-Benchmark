@@ -1,0 +1,11 @@
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-BinaryTree'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-Chameleons'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-ChameneosRedux'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-FannkuchRedux'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-Fasta'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-Meteor'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-NBody'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-PiDigits'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-Tests'!
+SystemOrganization addCategory: #'CalipeL-S-Benchmarks-Game-ThreadRing'!

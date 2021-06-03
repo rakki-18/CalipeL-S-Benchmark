@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkInstanceTestsA",
+	"category" : "CalipeL-S-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"param3",
+		"param4",
+		"param5"
+	],
+	"name" : "BenchmarkInstanceTestsB",
+	"type" : "normal"
+}

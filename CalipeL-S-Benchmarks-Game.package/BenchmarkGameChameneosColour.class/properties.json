@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [
+		"Blue",
+		"Red",
+		"Yellow"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"color"
+	],
+	"name" : "BenchmarkGameChameneosColour",
+	"type" : "normal"
+}

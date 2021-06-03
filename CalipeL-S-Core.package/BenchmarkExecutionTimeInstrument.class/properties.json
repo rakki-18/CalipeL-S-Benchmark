@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkMeasurementInstrument",
+	"category" : "CalipeL-S-Core-Measurement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MillisecondsTime"
+	],
+	"instvars" : [
+		"t0",
+		"t1"
+	],
+	"name" : "BenchmarkExecutionTimeInstrument",
+	"type" : "normal"
+}

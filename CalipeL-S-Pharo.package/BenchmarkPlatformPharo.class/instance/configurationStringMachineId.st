@@ -1,0 +1,3 @@
+configuration
+configurationStringMachineId
+  	^NetNameResolver localHostName 

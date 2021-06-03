@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Tests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"msecs"
+	],
+	"name" : "BenchmarkTestsSuiteA",
+	"type" : "normal"
+}

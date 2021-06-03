@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UndefinedValue"
+	],
+	"instvars" : [
+		"name",
+		"type",
+		"default",
+		"values"
+	],
+	"name" : "BenchmarkParameter",
+	"type" : "normal"
+}

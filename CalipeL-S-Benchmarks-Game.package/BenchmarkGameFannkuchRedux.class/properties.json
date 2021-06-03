@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"permGenFactory"
+	],
+	"name" : "BenchmarkGameFannkuchRedux",
+	"type" : "normal"
+}

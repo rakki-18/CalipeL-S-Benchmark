@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game-Fasta",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FModulus",
+		"Increment",
+		"Modulus",
+		"Multiplier"
+	],
+	"instvars" : [
+		"seed",
+		"scale"
+	],
+	"name" : "BenchmarkGameRandomNumber",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkReport",
+	"category" : "CalipeL-S-Core-Reports",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"json"
+	],
+	"name" : "BenchmarkReportJSON",
+	"type" : "normal"
+}

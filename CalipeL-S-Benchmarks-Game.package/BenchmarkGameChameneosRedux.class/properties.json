@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lastSum",
+		"colorFactory",
+		"mallFactory",
+		"arrayFactory",
+		"collectionFactory",
+		"creatureFactory"
+	],
+	"name" : "BenchmarkGameChameneosRedux",
+	"type" : "normal"
+}

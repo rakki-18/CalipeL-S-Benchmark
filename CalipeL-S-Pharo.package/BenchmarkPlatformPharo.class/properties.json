@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkPlatform",
+	"category" : "CalipeL-S-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OsVersionXlats"
+	],
+	"instvars" : [ ],
+	"name" : "BenchmarkPlatformPharo",
+	"type" : "normal"
+}

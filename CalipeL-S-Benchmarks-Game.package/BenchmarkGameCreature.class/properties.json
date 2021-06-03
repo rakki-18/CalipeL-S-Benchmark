@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game-ChameneosRedux",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"creatureName",
+		"colour",
+		"selfMet",
+		"creaturesMet"
+	],
+	"name" : "BenchmarkGameCreature",
+	"type" : "normal"
+}

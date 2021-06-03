@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkGameRepeatStream",
+	"category" : "CalipeL-S-Benchmarks-Game-Fasta",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"random",
+		"percentages",
+		"randomNumFactory",
+		"arrayFactory"
+	],
+	"name" : "BenchmarkGameRandomStream",
+	"type" : "normal"
+}

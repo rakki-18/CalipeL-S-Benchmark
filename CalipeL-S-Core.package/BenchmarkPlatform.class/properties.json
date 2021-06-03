@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current"
+	],
+	"instvars" : [
+		"instruments"
+	],
+	"name" : "BenchmarkPlatform",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "CalipeL-S-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"log",
+		"param1",
+		"param2",
+		"measurementValue"
+	],
+	"name" : "BenchmarkInstanceTestsA",
+	"type" : "normal"
+}

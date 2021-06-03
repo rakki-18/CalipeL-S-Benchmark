@@ -1,0 +1,4 @@
+measurement
+measurementStart:aBenchmarkInstance
+	Smalltalk garbageCollect.
+	^ super measurementStart:aBenchmarkInstance

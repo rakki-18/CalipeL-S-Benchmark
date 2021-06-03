@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timestamp",
+		"outcomes",
+		"runs"
+	],
+	"name" : "BenchmarkResultC",
+	"type" : "normal"
+}

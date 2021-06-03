@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkError",
+	"category" : "CalipeL-S-Core-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BenchmarkSkipRequest",
+	"type" : "normal"
+}

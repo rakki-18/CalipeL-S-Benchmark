@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BenchmarkMeasurementInstrument",
+	"category" : "CalipeL-S-Core-Measurement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"c0",
+		"c1"
+	],
+	"name" : "BenchmarkCountingInstrument",
+	"type" : "normal"
+}

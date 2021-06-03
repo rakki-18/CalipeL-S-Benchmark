@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"t0",
+		"t1"
+	],
+	"name" : "BenchmarkExamplesInstrument",
+	"type" : "normal"
+}

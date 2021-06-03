@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "jv 10222015 15:22",
+	"super" : "Object",
+	"category" : "CalipeL-S-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Cache"
+	],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "BenchmarkGameFastaCache",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+*Compatibility-SmalltalkX
+isSmalltalkX
+	^false

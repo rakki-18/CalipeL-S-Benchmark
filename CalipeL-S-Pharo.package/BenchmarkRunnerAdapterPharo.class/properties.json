@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CommandLineHandler",
+	"category" : "CalipeL-S-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"runner"
+	],
+	"name" : "BenchmarkRunnerAdapterPharo",
+	"type" : "normal"
+}

@@ -1,0 +1,27 @@
+benchmarks
+benchmark6
+	<benchmark>
+
+	| na sels r s args |
+
+	na := 6.
+	sels := selectors at: 1+na.
+	args := Array new: na.
+	hasPerformWith4 ifTrue:[
+		1 to: iterations * 1000 do:[:i|
+			r := receivers at: (recindices at: ((i \\ nreceivers) + 1)).
+			s := sels at: (selindices at: ((i \\ nselectors) + 1)).
+
+			r perform: s with: 1 with: 2 with: 3 with: 4 with: 5 with: 6.
+		]
+	] ifFalse:[
+		1 to: iterations * 1000 do:[:i|
+			r := receivers at: (recindices at: ((i \\ nreceivers) + 1)).
+			s := sels at: (selindices at: ((i \\ nselectors) + 1)).
+
+			r perform: s withArguments: args
+		]
+	]
+
+	"Created: / 20-07-2013 / 11:16:18 / Jan Vrany <jan.vrany@fit.cvut.cz>"
+	"Modified: / 16-10-2015 / 19:57:24 / Jan Vrany <jan.vrany@fit.cvut.cz>"

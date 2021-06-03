@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CalipeL-S-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MillisecondsTime"
+	],
+	"instvars" : [
+		"instance",
+		"benchmarkSelector",
+		"name",
+		"description",
+		"parameters",
+		"setUpSelector1",
+		"setUpSelectors2",
+		"tearDownSelector1",
+		"tearDownSelectors2",
+		"warmUpSelector1",
+		"warmUpSelector2"
+	],
+	"name" : "BenchmarkInstance",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PackageManifest",
+	"category" : "CalipeL-S-Benchmarks-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "jv_calipel_s_benchmarks_game",
+	"type" : "normal"
+}
