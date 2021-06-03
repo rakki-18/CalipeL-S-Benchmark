@@ -1,3 +1,0 @@
-accessing
-instrument
-	^ instrument

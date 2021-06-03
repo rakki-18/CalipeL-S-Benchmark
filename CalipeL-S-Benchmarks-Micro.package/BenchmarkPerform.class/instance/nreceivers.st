@@ -1,3 +1,0 @@
-parameters
-nreceivers
-	^ nreceivers

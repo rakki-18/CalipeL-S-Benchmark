@@ -1,3 +1,0 @@
-*Compatibility-SmalltalkX
-asFilename
-	^self

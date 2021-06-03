@@ -1,3 +1,0 @@
-parameters
-seldistrib
-	^ seldistrib
