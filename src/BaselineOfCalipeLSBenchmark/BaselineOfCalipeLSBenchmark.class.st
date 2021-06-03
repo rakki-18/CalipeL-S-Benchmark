@@ -18,6 +18,6 @@ BaselineOfCalipeLSBenchmark >> baseline: spec [
 				package: 'CalipeL-S-Benchmarks-Game'	with: [ spec requires: #('Compatibility-SmalltalkX') ];
 				package: 'CalipeL-S-Tests'	with: [ spec requires: #('Compatibility-SmalltalkX') ].
 			spec
-				group: 'default'				with: #('CalipeL-S-Core' 'CalipeL-S-Pharo' 'CalipeL-S-Benchmarks-Micro' 'CalipeL-S-Tests' 'CalipeL-S-Benchmarks-Game')			
+				group: 'default'				with: #('Compatibility-SmalltalkX' 'CalipeL-S-Core' 'CalipeL-S-Pharo' 'CalipeL-S-Benchmarks-Micro' 'CalipeL-S-Tests' 'CalipeL-S-Benchmarks-Game')			
 			]
 ]
