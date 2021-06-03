@@ -14,5 +14,5 @@ To add a dependency to your project, add the following in your baseline method:
 ```Smalltalk
 spec
   baseline: 'CalipeLSBenchmark'
-  with: [spec repository: github://rakki-18/CalipeL-S-Benchmark/src' ].
+  with: [spec repository: 'github://rakki-18/CalipeL-S-Benchmark/src' ].
 ```
