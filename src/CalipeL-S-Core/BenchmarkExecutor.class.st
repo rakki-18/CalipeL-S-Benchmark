@@ -109,7 +109,7 @@ BenchmarkExecutor >> execute: aBenchmarkInstance result: aBenchmarkResult define
 		defined := true.
 		valuesString := aDictionary at: key1 ifAbsent:[aDictionary at: key2 ifAbsent:[defined := false]].
 		defined ifTrue:[
-			values := valuesString subStrings:','.
+			values := valuesString substrings:','.
 			values := values collect:[:each|
 
 				(parameter type includesBehavior: String) ifTrue:[
