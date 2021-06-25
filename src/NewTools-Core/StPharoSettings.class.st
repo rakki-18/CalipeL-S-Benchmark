@@ -43,12 +43,14 @@ StPharoSettings class >> defaultToolbarDisplayMode [
 { #category : #settings }
 StPharoSettings class >> inspectorDiveOnSingleClick [
 
+	
 	^ InspectorDiveOnSingleClick ifNil: [
 		InspectorDiveOnSingleClick := self defaultInspectorDiveOnSingleClick ]
 ]
 
 { #category : #settings }
 StPharoSettings class >> inspectorDiveOnSingleClick: aBoolean [
+
 
 	InspectorDiveOnSingleClick := aBoolean
 ]
