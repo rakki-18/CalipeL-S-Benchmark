@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'measurements',
 		'benchmark',
-		'parameters'
+		'parameters',
+		'spaceMeasurements'
 	],
 	#category : #'CalipeL-S-Core'
 }
@@ -76,6 +77,17 @@ BenchmarkOutcome >> measurements [
 { #category : #accessing }
 BenchmarkOutcome >> parameters [
 	^ parameters
+]
+
+{ #category : #accessing }
+BenchmarkOutcome >> spaceMeasurements [
+	^ spaceMeasurements 
+]
+
+{ #category : #initialization }
+BenchmarkOutcome >> spaceMeasurements: anInteger [
+
+	spaceMeasurements := anInteger.
 ]
 
 { #category : #accessing }
