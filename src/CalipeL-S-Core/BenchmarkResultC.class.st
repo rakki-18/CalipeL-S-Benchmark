@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'timestamp',
 		'outcomes',
-		'runs'
+		'runs',
+		'benchmarkClass'
 	],
 	#category : #'CalipeL-S-Core'
 }
@@ -32,6 +33,20 @@ BenchmarkResultC >> addOutcome: outcome [
 	outcomes add: outcome
 
 	"Created: / 25-07-2013 / 23:53:26 / Jan Vrany <jan.vrany@fit.cvut.cz>"
+]
+
+{ #category : #accessing }
+BenchmarkResultC >> benchmarkClass [
+
+	^ benchmarkClass 
+
+]
+
+{ #category : #accessing }
+BenchmarkResultC >> benchmarkClass: aClass [
+
+	benchmarkClass := aClass.
+
 ]
 
 { #category : #initialization }
