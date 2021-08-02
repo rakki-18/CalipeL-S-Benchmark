@@ -21,13 +21,20 @@ Class {
 		'withHeaderBar'
 	],
 	#classVars : [
-		'IndexableDisplayLimit'
+		'IndexableDisplayLimit',
+		'inspectorDiveOnSingleClick'
 	],
 	#classInstVars : [
 		'preferredExtent'
 	],
 	#category : #'NewTools-Inspector-View'
 }
+
+{ #category : #settings }
+StInspector class >> defaultInspectorDiveOnSingleClick [
+
+	^ true
+]
 
 { #category : #accessing }
 StInspector class >> defaultPreferredExtent [
@@ -97,6 +104,21 @@ StInspector class >> inspector: anObject [
 				-> '`@receiver inspect: `@statements1'.
 
 	^ self openOn: anObject
+]
+
+{ #category : #settings }
+StInspector class >> inspectorDiveOnSingleClick [
+
+	
+	^ InspectorDiveOnSingleClick ifNil: [
+		InspectorDiveOnSingleClick := self defaultInspectorDiveOnSingleClick ]
+]
+
+{ #category : #settings }
+StInspector class >> inspectorDiveOnSingleClick: aBoolean [
+
+
+	InspectorDiveOnSingleClick := aBoolean
 ]
 
 { #category : #'instance creation' }
@@ -223,7 +245,7 @@ StInspector >> newInspectorFor: aModel [
 	newInspector := self
 		instantiate: aModel defaultObjectInspectorClass
 		on: aModel asInspectorModel.
-	StPharoSettings inspectorDiveOnSingleClick 
+	self class inspectorDiveOnSingleClick 
 		ifTrue: [ newInspector activateOnSingleClick ].
 	
 	millerList pages ifNotEmpty: [ :pages | 
